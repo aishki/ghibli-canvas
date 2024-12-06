@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Canvas Art</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #a2d7d5;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      h1 {
+        color: #3a5a40;
+        margin-bottom: 20px;
+      }
+      .canvas-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+      .canvas-item {
+        text-align: center;
+      }
+      canvas {
+        border: 2px solid #3a5a40;
+        border-radius: 10px;
+      }
+      p {
+        margin-top: 5px;
+        color: #3a5a40;
+        font-weight: bold;
+      }
+      .signature {
+        margin-top: 20px;
+        color: #3a5a40;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pokemon Canvas Art</h1>
+    <div class="canvas-container">
+      <div class="canvas-item">
+        <canvas id="canvas1" width="200" height="200"></canvas>
+        <p>Pikachu</p>
+      </div>
+      <div class="canvas-item">
+        <canvas id="canvas2" width="200" height="200"></canvas>
+        <p>Bulbasaur</p>
+      </div>
+      <div class="canvas-item">
+        <canvas id="canvas3" width="200" height="200"></canvas>
+        <p>Charmander</p>
+      </div>
+      <div class="canvas-item">
+        <canvas id="canvas4" width="200" height="200"></canvas>
+        <p>Squirtle</p>
+      </div>
+      <div class="canvas-item">
+        <canvas id="canvas5" width="200" height="200"></canvas>
+        <p>Jigglypuff</p>
+      </div>
+      <div class="canvas-item">
+        <canvas id="canvas6" width="200" height="200"></canvas>
+        <p>Meowth</p>
+      </div>
+      <div class="canvas-item">
+        <canvas id="canvas7" width="200" height="200"></canvas>
+        <p>Snorlax</p>
+      </div>
+      <div class="canvas-item">
+        <canvas id="canvas8" width="200" height="200"></canvas>
+        <p>Eevee</p>
+      </div>
+    </div>
+    <p class="signature">Submitted by Chim Anjuro Batayola</p>
+  </body>
+</html>
+<script src="script.js"></script>
